@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Development Target for Meister</title>
+    <script src="build/meister.bundled.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+    <div id="meister" style="height:500px;width:600px;"></div>
+
+    <script type="text/javascript">
+        var meister = new Meister('#meister', {
+            global: {
+                autoplay: true,
+            },
+            HtmlUi:{
+                // fixedControls:true
+            }
+            // Watermark: {
+            //     iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/23/RTL_XL_Logo.svg',
+            //     // position: 'bottom-left',
+            // },
+            // AdobeAnalytics: {
+            //     VisitorApiSdkUrl: 'src/assets/VisitorAPI.js',
+            //     AppMeasurementSdkUrl: 'src/assets/AppMeasurement.js',
+            //     VideoHeartbeatSdkUrl: 'src/assets/VideoHeartbeat.min.js',
+            //     settings: {
+            //         debugLogging: true,
+            //     },
+            //     ADBMobileConfig: {
+            //         "marketingCloud": {
+            //             "org": "DBBF7BC3581B52CD0A495DAF@AdobeOrg"
+            //         },
+            //         "analytics": {
+            //             "rsids": "ags625rtldev",
+            //             "server": "ags625.sc.omtrdc.net",
+            //             "ssl": false,
+            //             "offlineEnabled": false,
+            //             "charset": "UTF-8",
+            //             "lifecycleTimeout": 300,
+            //             "privacyDefault": "optedin",
+            //             "batchLimit": 0,
+            //             "timezone": "GMT",
+            //             "timezoneOffset": 2,
+            //             "referrerTimeout": 0,
+            //             "backdateSessionInfo": false,
+            //             "poi": []
+            //         },
+            //         "messages": []
+            //     }
+            // }
+        });
+
+        meister.setPlaylist([
+            // {
+            //     sources: [{
+            //             src: 'http://origin-live.sport1.triple-it.nl/zst1.3/select/select.isml/select.mpd',
+            //             type: 'mpd',
+            //         },
+            //         {
+            //             src: 'http://origin-live.sport1.triple-it.nl/zst1.3/select/select.isml/select.m3u8',
+            //             type: 'm3u8',
+            //         }
+            //     ],
+            //     type: 'multi-source',
+            //     // src: 'https://zst-akm-cdn-triple.akamaized.net/zst1.0/select/select.isml/select.m3u8',
+            //     drmConfig: {
+            //         fairplay: {
+            //             drmServerUrl: 'https://zst-drmplatform.triple-it.nl/api/fairplay',
+            //             drmCertificateUrl: 'https://zst-drmplatform.triple-it.nl/api/fairplay/getcertificate',
+            //             customHeaders: {
+            //                 'X-Triple-DeviceInfo': 'Mac',
+            //                 'X-Triple-DeviceRightsId': 'FP001',
+            //                 'X-Triple-TokenId': '2E390D75-C42E-4622-8232-726541C2B00F',
+            //                 'X-Triple-DeviceId': '9F8B7569-0F36-4BF5-911A-0EC623CCB712',
+            //                 'X-Triple-AssetId': 'Select',
+            //                 'X-Triple-ReferenceId': '20',
+            //             },
+            //         },
+            //         widevine: {
+            //             drmServerUrl: 'https://zst-drmplatform.triple-it.nl/api/widevine',
+            //             drmCertificateUrl: 'https://static.rtl.nl/videoplayers/certificate/cert_license_widevine_com.bin',
+            //             customHeaders: {
+            //                 'X-Triple-DeviceInfo': 'Mac',
+            //                 'X-Triple-DeviceRightsId': 'WV001',
+            //                 'X-Triple-TokenId': '2E390D75-C42E-4622-8232-726541C2B00F',
+            //                 'X-Triple-DeviceId': '9F8B7569-0F36-4BF5-911A-0EC623CCB712',
+            //                 'X-Triple-AssetId': 'Select',
+            //                 'X-Triple-ReferenceId': '20',
+            //             },
+            //             scheme: {
+            //                 kid: '%%KID%%',
+            //                 drm_info: '%%KEY_MESSAGE%%',
+            //             },
+            //         },
+            //         playready: {
+            //             drmServerUrl: 'https://zst-drmplatform.triple-it.nl/api/playready',
+            //             customHeaders: {
+            //                 'X-Triple-DeviceInfo': 'Mac',
+            //                 'X-Triple-DeviceRightsId': 'PR001',
+            //                 'X-Triple-TokenId': '2E390D75-C42E-4622-8232-726541C2B00F',
+            //                 'X-Triple-DeviceId': '9F8B7569-0F36-4BF5-911A-0EC623CCB712',
+            //                 'X-Triple-AssetId': 'Select',
+            //                 'X-Triple-ReferenceId': '20',
+            //             },
+            //         },
+            //     },
+            // },
+            // {
+            //     src: '1La4QzGeaaQ',
+            //     type: 'youtube'
+            // },
+            // {
+            //     AdobeAnalytics: {
+            //         player: {
+            //             name: 'Meister adobe amazing',
+            //         },
+            //         settings: {
+            //             debugLogging: true,
+            //         },
+            //         metadata: {
+            //             episode: 'What duck'
+            //         }
+            //     },
+            //     media: {
+            //         src: 'http://dash.edgesuite.net/akamai/bbb_30fps/bbb_30fps.mpd',
+            //         type: 'mpd',
+            //         bifSrc: 'https://img.cdn.smartvod.com/smartvod/bif/videoland/138182/28597.bif',
+            //     },
+            //     vmap: 'https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostlongpod&cmsid=496&vid=short_tencue&correlator=',
+            //     type: 'aditem',
+            // },
+            {
+                src: 'http://dash.edgesuite.net/akamai/bbb_30fps/bbb_30fps.mpd',
+                type: 'mpd',
+            },
+            // {
+            //     sources: [{
+            //         src: 'http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_96.mp3',
+            //         type: 'bs',
+            //     }, {
+            //         src: 'http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_96.mp',
+            //         type: 'icecast',
+            //     }, {
+            //         src: 'http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_96.mp3',
+            //         type: 'icecast',
+            //     }],
+            //     type: 'multi-source',
+            //     // switchItemOnError: false,
+            // }
+        ]);
+
+        // meister.setItem({
+        //     media: {
+        //         src: [
+        //             {
+        //                 src: 'http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_64.aac',
+        //                 type: 'icecast',
+        //             },
+        //             {
+        //                 src: 'http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_32.aac',
+        //                 type: 'icecast',
+        //             },
+        //             {
+        //                 src: 'http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_64.ogg',
+        //                 type: 'icecast',
+        //             },
+        //             {
+        //                 src: 'http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_96.mp3',
+        //                 type: 'icecast',
+        //             }
+        //         ],
+        //         type: 'multi-source'
+        //     },
+        //     vmap: 'https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpreonly&cmsid=496&vid=short_onecue&correlator=',
+        //     type: 'aditem',
+        // });
+
+        meister.load();
+
+    </script>
+
+
+</body>
+
+</html>
