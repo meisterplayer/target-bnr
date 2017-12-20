@@ -1,7 +1,7 @@
 {
-  "name": "@npm-wearetriple/meister-dev-environment",
-  "version": "1.1.1",
-  "description": "Target for Meister plugin development",
+  "name": "@npm-wearetriple/meister-target-bnr",
+  "version": "1.0.0",
+  "description": "Target for BNR",
   "main": "meister.bundled",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,7 +23,6 @@
   "author": "Triple",
   "license": "Apache-2.0",
   "devDependencies": {
-    "babel-polyfill": "^6.23.0",
     "babel-preset-es2015": "^6.24.0",
     "babel-preset-es2017": "^6.22.0",
     "gulp": "^3.9.1",
@@ -32,5 +31,15 @@
     "meister-gulp-webpack-tasks": "^1.0.6",
     "meister-js-dev": "^3.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "@meisterplayer/meisterplayer": "^5.2.2",
+    "@meisterplayer/plugin-basemedia": "^5.2.0",
+    "@meisterplayer/plugin-hls": "^5.4.0",
+    "@meisterplayer/plugin-html5player": "^5.5.1",
+    "@meisterplayer/plugin-htmlui": "^5.3.4",
+    "@meisterplayer/plugin-multisource": "^5.2.0",
+    "@meisterplayer/plugin-nativehls": "^5.5.1",
+    "@npm-wearetriple/meister-plugin-googleanalytics": "^5.3.0"
+  }
 }
