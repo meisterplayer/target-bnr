@@ -1,6 +1,6 @@
 {
   "name": "@npm-wearetriple/meister-target-bnr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Target for BNR",
   "main": "meister.bundled",
   "scripts": {
@@ -28,7 +28,7 @@
     "gulp": "^3.9.1",
     "meister-doc-builder": "^5.0.0",
     "meister-gulp-browsersync-task": "^1.0.1",
-    "meister-gulp-webpack-tasks": "^1.0.6",
+    "meister-gulp-webpack-tasks": "1.0.6",
     "meister-js-dev": "^3.1.0"
   },
   "dependencies": {
@@ -37,7 +37,7 @@
     "@meisterplayer/plugin-basemedia": "^5.2.0",
     "@meisterplayer/plugin-hls": "^5.4.0",
     "@meisterplayer/plugin-html5player": "^5.5.1",
-    "@meisterplayer/plugin-htmlui": "^5.3.4",
+    "@meisterplayer/plugin-htmlui": "^5.3.5",
     "@meisterplayer/plugin-multisource": "^5.2.0",
     "@meisterplayer/plugin-nativehls": "^5.5.1",
     "@npm-wearetriple/meister-plugin-googleanalytics": "^5.3.0"
