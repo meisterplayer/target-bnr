@@ -2,17 +2,17 @@
 import Meister from '@meisterplayer/meisterplayer';
 import BaseMedia from '@meisterplayer/plugin-basemedia';
 import Html5Player from '@meisterplayer/plugin-html5player';
-import HtmlUi from '@meisterplayer/plugin-htmlui';
+import HtmlUi from '@meisterplayer/plugin-htmlui/index';
 import NativeHls from '@meisterplayer/plugin-nativehls';
 import Hls from '@meisterplayer/plugin-hls';
 import MultiSource from '@meisterplayer/plugin-multisource';
-import GoogleAnalytics  from '@npm-wearetriple/meister-plugin-googleanalytics';
+import GoogleAnalytics from '@npm-wearetriple/meister-plugin-googleanalytics';
 
-//import Dash from '@meisterplayer/plugin-dash';
+// import Dash from '@meisterplayer/plugin-dash';
 // import DebugOverlay from '@meisterplayer/plugin-debugoverlay/index';
 // import WebVtt from '@meisterplayer/plugin-webvtt/index';
 // import Smooth from '@meisterplayer/plugin-smooth/index';
-//import RtlPlayer from '@npm-wearetriple/meister-plugin-rtlplayer/index';
+// import RtlPlayer from '@npm-wearetriple/meister-plugin-rtlplayer/index';
 // import StreamSense from '@npm-wearetriple/meister-plugin-streamsense/index';
 // import Drm from '@npm-wearetriple/meister-plugin-drm/index';
 // import GoogleIma from '@npm-wearetriple/meister-plugin-googleima/index';
@@ -22,7 +22,7 @@ import GoogleAnalytics  from '@npm-wearetriple/meister-plugin-googleanalytics';
 // import AdobeAnalytics from '@npm-wearetriple/meister-plugin-adobeanalytics/index';
 // import DefaultTheme from '@meisterplayer/plugin-defaulttheme/index';
 
-import 'babel-polyfill';
+// import 'babel-polyfill';
 import packageJson from '../../package.json';
 
 Meister.targetVersion = packageJson.name + ' ' + packageJson.version;

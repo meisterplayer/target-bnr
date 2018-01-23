@@ -15,6 +15,7 @@
         var meister = new Meister('#meister', {
             global: {
                 autoplay: true,
+                defaultAudioImage: 'http://starwarsblog.starwars.com/wp-content/uploads/2017/11/kylo-battlefront-header.jpg',
             },
             googleAnalytics: {
                 scriptUrl: 'https://www.google-analytics.com/analytics.js',
@@ -60,6 +61,7 @@
         meister.setItem({
             src: 'https://static.bnr.nl/media/audio/1007/41/18/Beter_2017-12-18.mp3',
             type: 'icecast',
+            mediaType: 'audio',
         });
 
         meister.load();

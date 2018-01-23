@@ -37,7 +37,7 @@
     "@meisterplayer/plugin-basemedia": "^5.2.0",
     "@meisterplayer/plugin-hls": "^5.4.0",
     "@meisterplayer/plugin-html5player": "^5.5.1",
-    "@meisterplayer/plugin-htmlui": "^5.3.5",
+    "@meisterplayer/plugin-htmlui": "^5.4.0",
     "@meisterplayer/plugin-multisource": "^5.2.0",
     "@meisterplayer/plugin-nativehls": "^5.5.1",
     "@npm-wearetriple/meister-plugin-googleanalytics": "^5.3.0"

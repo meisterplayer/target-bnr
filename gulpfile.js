@@ -22,7 +22,7 @@ gulp.task('build:dist', (done) => {
 });
 
 gulp.task('build:min', (done) => {
-    const bundleConfigMin = webpackTask.createConfig('./index.js', `dist/${packageConfig.main}.min.js`, true, webpackConfig);
+    const bundleConfigMin = webpackTask.createConfig('./index.js', webpackConfig.output, true, webpackConfig);
     const bundleCompilerMin = webpackTask.createCompiler(bundleConfigMin);
 
     webpackTask.createBuildTask(bundleCompilerMin)(done);
