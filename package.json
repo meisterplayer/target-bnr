@@ -2,7 +2,7 @@
   "name": "@npm-wearetriple/meister-target-bnr",
   "version": "1.1.0",
   "description": "Target for BNR",
-  "main": "meister.bundled",
+  "main": "build/meister.bundled.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate-docs": "meister-doc-builder",
@@ -28,7 +28,7 @@
     "gulp": "^3.9.1",
     "meister-doc-builder": "^5.0.0",
     "meister-gulp-browsersync-task": "^1.0.1",
-    "meister-gulp-webpack-tasks": "1.0.6",
+    "meister-gulp-webpack-tasks": "1.1.2",
     "meister-js-dev": "^3.1.0"
   },
   "dependencies": {
