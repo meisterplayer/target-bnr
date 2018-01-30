@@ -1,3 +1,13 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/meisterplayer/target-bnr/compare/v1.1.1...v1.2.0) (2018-01-30)
+
+
+### Features
+
+* **plugins:** Update plugins to latest version ([ff61409](https://github.com/meisterplayer/target-bnr/commit/ff61409))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/meisterplayer/target-bnr/compare/v1.0.0...v1.1.0) (2018-01-23)
 
