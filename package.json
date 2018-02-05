@@ -1,6 +1,6 @@
 {
   "name": "@npm-wearetriple/meister-target-bnr",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Target for BNR",
   "main": "build/meister.bundled.js",
   "scripts": {
