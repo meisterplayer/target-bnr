@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title>Development Target for Meister</title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script> -->
     <script src="build/meister.bundled.js" charset="utf-8"></script>
 </head>
 
 <body>
-
     <div id="meister" style="height:400px; width:800px;"></div>
 
     <script type="text/javascript">
@@ -17,49 +17,10 @@
                 autoplay: true,
                 defaultAudioImage: 'https://wikitravel.org/upload/en/thumb/3/32/Paris-eiffel-tower.jpg/300px-Paris-eiffel-tower.jpg',
             },
-            googleAnalytics: {
-                scriptUrl: 'https://www.google-analytics.com/analytics.js',
-                trackingID: 'UA-XXXXXXX-Y',
-                trackingName: 'custom_tracker_name',
-                trackUIUserEventsOnly: true,
-                defaultOptions: {
-                    eventCategory: 'custom_event_category',
-                    heartBeatInterval: 6,
-                    label: 'custom_event_label',
-                }
-            }
         });
 
-        // example of multisource livestream ()
-        // meister.setItem({
-        //     src: [
-        //         {
-        //             src: 'http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_64.aac',
-        //             type: 'icecast',
-        //         },
-        //         {
-        //             src: 'http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_32.aac',
-        //             type: 'icecast',
-        //         },
-        //         {
-        //             src: 'http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_64.ogg',
-        //             type: 'icecast',
-        //         },
-        //         {
-        //             src: 'http://icecast-qmusic.cdp.triple-it.nl/Qmusic_nl_live_96.mp3',
-        //             type: 'icecast',
-        //         }
-        //     ],
-        //     type: 'multi-source'
-        // });
-
-        // meister.setItem({
-        //     src: 'https://icecast-bnr-cdp.triple-it.nl/bnr_mp3_128_03',
-        //     type: 'icecast',
-        // });
-
         meister.setItem({
-            src: 'https://static.bnr.nl/media/audio/1007/41/18/Beter_2017-12-18.mp3',
+            src: 'http://relay-ams.gameowls.com:8000/all.ogg',
             type: 'icecast',
             mediaType: 'audio',
         });
@@ -67,8 +28,6 @@
         meister.load();
 
     </script>
-
-
 </body>
 
 </html>
