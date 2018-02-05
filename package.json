@@ -32,7 +32,7 @@
     "meister-js-dev": "^3.1.0"
   },
   "dependencies": {
-    "@meisterplayer/meisterplayer": "^5.2.2",
+    "@meisterplayer/meisterplayer": "^5.2.3",
     "@meisterplayer/plugin-basemedia": "^5.2.0",
     "@meisterplayer/plugin-hls": "^5.4.0",
     "@meisterplayer/plugin-html5player": "^5.5.1",
