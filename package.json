@@ -39,9 +39,6 @@
     "@meisterplayer/plugin-htmlui": "^5.6.0",
     "@meisterplayer/plugin-multisource": "^5.2.0",
     "@meisterplayer/plugin-nativehls": "^5.6.1",
-    "@npm-wearetriple/meister-plugin-aditem": "^5.2.0",
-    "@npm-wearetriple/meister-plugin-googleanalytics": "^5.3.0",
-    "@npm-wearetriple/meister-plugin-googleima": "^5.3.8",
     "babel-polyfill": "^6.26.0"
   }
 }
