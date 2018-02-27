@@ -37,3 +37,7 @@ jspm_packages
 .node_repl_history
 
 build
+certificates/cert.pem
+certificates/chain.pem
+certificates/fullchain.pem
+certificates/privkey.pem
