@@ -32,13 +32,15 @@
     "meister-js-dev": "^3.1.0"
   },
   "dependencies": {
-    "@meisterplayer/meisterplayer": "^5.3.0",
-    "@meisterplayer/plugin-basemedia": "^5.2.0",
-    "@meisterplayer/plugin-hls": "^5.5.0",
-    "@meisterplayer/plugin-html5player": "^5.6.2",
-    "@meisterplayer/plugin-htmlui": "^5.6.0",
-    "@meisterplayer/plugin-multisource": "^5.2.0",
-    "@meisterplayer/plugin-nativehls": "^5.6.1",
+    "@meisterplayer/meisterplayer": "5.3.0",
+    "@meisterplayer/plugin-basemedia": "5.2.0",
+    "@meisterplayer/plugin-hls": "5.5.0",
+    "@meisterplayer/plugin-html5player": "5.6.2",
+    "@meisterplayer/plugin-htmlui": "5.6.0",
+    "@meisterplayer/plugin-multisource": "5.2.0",
+    "@meisterplayer/plugin-nativehls": "5.6.1",
+    "@npm-wearetriple/meister-plugin-aditem": "5.2.0",
+    "@npm-wearetriple/meister-plugin-googleima": "5.6.4",
     "babel-polyfill": "^6.26.0"
   }
 }
