@@ -49,18 +49,9 @@ gulp.task('server', () => {
     const serverBundleConfigWithHot = webpackTask.configWithHot(serverBundleConfig);
     const serverBundleCompiler = webpackTask.createCompiler(serverBundleConfigWithHot);
 
-    const sslOptions = {
-        https: packageConfig.certificates ? {
-            key: packageConfig.certificates.privateCertificate,
-            cert: packageConfig.certificates.certificate,
-        } : {
-            https: true,
-        },
-    };
-
     const devMiddleware = webpackTask.createDevMiddleware(serverBundleCompiler, serverBundleConfigWithHot);
     const hotMiddleware = webpackTask.createHotMiddleware(serverBundleCompiler);
-    const browserSyncConfig = browserSyncTask.createConfig('.', false, 3000, [devMiddleware, hotMiddleware], sslOptions);
+    const browserSyncConfig = browserSyncTask.createConfig('.', false, 3000, [devMiddleware, hotMiddleware]);
 
     console.log('Creating ssl-server');
 
