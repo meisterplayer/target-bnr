@@ -1,3 +1,18 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/meisterplayer/target-bnr/compare/v1.3.2...v1.4.0) (2019-02-28)
+
+
+### Features
+
+* **meister:** Update meister to v5.3.0 ([5d7e6a7](https://github.com/meisterplayer/target-bnr/commit/5d7e6a7))
+* **plugins:** Add GoogleIMA and adItem plugins ([03141ce](https://github.com/meisterplayer/target-bnr/commit/03141ce))
+
+
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/meisterplayer/target-bnr/compare/v1.2.0...v1.3.0) (2018-02-05)
 
