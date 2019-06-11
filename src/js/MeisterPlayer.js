@@ -7,7 +7,7 @@ import HtmlUi from '@meisterplayer/plugin-htmlui/index';
 import NativeHls from '@meisterplayer/plugin-nativehls';
 import Hls from '@meisterplayer/plugin-hls';
 import MultiSource from '@meisterplayer/plugin-multisource';
-import GoogleIma from '@npm-wearetriple/meister-plugin-googleima/index'
+import GoogleIma from '@npm-wearetriple/meister-plugin-googleima/index';
 import AdItem from '@npm-wearetriple/meister-plugin-aditem/index';
 import packageJson from '../../package.json';
 
