@@ -20,7 +20,9 @@ Meister.builtIn = {
     [MultiSource.pluginName]: {},
     [GoogleIma.pluginName]: {},
     [AdItem.pluginName]: {},
-    [Hls.pluginName]: {},
+    [Hls.pluginName]: {
+        disabled: Meister.Browser.isSafari,
+    },
     [NativeHls.pluginName]: {},
 };
 
